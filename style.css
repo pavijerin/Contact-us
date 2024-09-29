@@ -1,0 +1,103 @@
+
+#overlay
+{
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form
+{
+    max-width: 550px;
+    background-image: url("img.jpg");
+    border: 2px solid green;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type="text"],input[type="email"],textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    resize: none;
+}
+input[type="text"],input[type="password"],textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    resize: none;
+}
+input[type="number"],input[type="age"],textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus
+{
+    border-bottom: 2px solid rgb(238, 10, 170);
+}
+label
+{
+    display: block;
+}
+input[type="submit"]
+{
+    padding: 15px;
+    font-size: 15px;
+    background-color: none;
+    border: 1px solid rgb(0,114,66);
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+   
+}
+input[type="submit"]:hover{
+    background-color: rgb(0,114,66);
+    border: black;
+    cursor: pointer;
+}
+#success
+{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.error-border
+{
+    border-bottom: 2px solid rgb(247, 6, 6);
+}
+.name_error,.email_error,.password_error,.address_error,.age_error,.contact_error,.message_error,.email_errors
+{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+h2
+{
+    
+text-align: center;
+text-shadow: -6px -1px 3px rgba(0, 0, 0, 0.6);
+    
+}

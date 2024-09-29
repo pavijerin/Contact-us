@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="login-I"> <br>
+        
+        <form  id="loginform" onsubmit="validateform(); event.preventDefault()">
+
+            <h2>Contact Us</h2><br>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Please Enter the Username"> 
+            <p class="name_error"></p> <br>
+
+            <label for="email">Email ID</label>
+            <input type="email" name="email" id="email" placeholder="Please Enter the Emailid">
+            <p class="email_error"></p> <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Please Enter the Password">
+            <p class="password_error"></p>
+            <p class="password_error"></p> <br>
+
+            <label for="address">Addresse</label>
+            <input type="text" name="address" id="address" placeholder="Please Enter the Address">
+            <p class="address_error"></p> <br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Please Enter the Age">
+            <p class="age_error"></p> <br>
+
+            <label for="contact">Contact Number</label>
+            <input type="number" name="number" id="contact" placeholder="Please Enter the Contact Number">
+            <p class="contact_error"></p> <br>
+
+            <label for="address">Message</label>
+            <input type="text" name="message" id="message" placeholder="Please Enter the Message">
+            <p class="message_error"></p> <br>
+
+           <input type="submit" value="SUBMIT">
+
+        </form>
+
+    </div>
+
+    <p id="success"></p>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
